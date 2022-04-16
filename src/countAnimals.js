@@ -13,7 +13,7 @@ function quantAnimais(objeto) {
   }
 }
 
-function animalSexo (objeto) {
+function animalSexo(objeto) {
   let contador = 0;
   data.species.find((bicho) => Object.values(objeto)[0]
     .includes(bicho.name)).residents.forEach((contar) => {
