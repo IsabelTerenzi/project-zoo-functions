@@ -6,7 +6,6 @@ function animalNulo() {
   return objeto;
 }
 
-
 function quantAnimais(objeto) {
   if (objeto) {
     return data.species.find((bicho) => Object.values(objeto)
@@ -32,5 +31,4 @@ function countAnimals(animal) {
   if (specie) return quantAnimais(animal);
 }
 
-console.log(animalSexo({ specie: 'bears', sex: 'female' }))
 module.exports = countAnimals;
