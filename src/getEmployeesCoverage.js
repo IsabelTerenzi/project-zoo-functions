@@ -6,8 +6,8 @@ function localizaEspecie(especieId) {
 }
 
 function nomeAnimal(especie) {
-  return data.species.filter((bicho) => especie.includes(bicho.id)).
-    map((animal) => animal.name);
+  return data.species.filter((bicho) => especie.includes(bicho.id))
+    .map((animal) => animal.name);
 }
 function infoFuncionario(objeto) {
   return {
