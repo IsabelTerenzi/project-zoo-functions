@@ -5,7 +5,7 @@ function animalNulo() {
   data.species.forEach(((bicho) => { objeto[bicho.name] = bicho.residents.length; }));
   return objeto;
 }
-
+console.log(animalNulo())
 /* A função animalNulo será retornada caso não haja nenhum parâmetro na função principal. Para isso,
 vou acessar as espécies e para cada bicho, vou retornar um objeto que contenha o nome do animal
 e o tamanho do seu array de residentes, ou seja, quantos animais eu tenho daquele bicho.
